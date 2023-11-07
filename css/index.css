@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    margin:0 px;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size:25px; 
+}
+div{
+    background-color: aqua;
+    border-radius:5px;
+    height: 100px;
+    width: 200px;
+}
+.conteiner-two{
+background-color: white;
+border-radius: 5px;
+height: 100px;
+width: 200px;
+position: absolute;
+top:2%;
+
+}
+p{ 
+    color:black;
+    display: block;
+    background-color: white;
+}
