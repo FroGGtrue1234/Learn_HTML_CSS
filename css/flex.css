@@ -1,4 +1,4 @@
-body{
+body{ 
     background-color:black ;
     margin: 0%;
 }
@@ -14,11 +14,18 @@ header{
     height: 300px;
     background-color: brown;
     flex-wrap: wrap; /*перенос на следующую страницу, nowrap=не перенос*/
+    flex-direction: row; /*переставляет блоки*/
+   justify-content:space-around;/* выравнивание по горизонту*/
+    align-items: center; /*выравнивание по центру*/
+    /*flex-grow: 4;растягивает*/
+    /*order:1;переставляет*/
 }
 .conteinerFlexItem{ /*стиль для дочерних контейнеров*/
 height:100px;
 width:100px;
-margin: auto; /*автоматические отступы*/
+/* margin:auto; автоматические отступы*/
 background-color: coral;
 border-radius: 10px;
+flex-grow:1;
+
 }
